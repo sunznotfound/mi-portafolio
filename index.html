@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="myportstyles.css"> 
+    <script src="https://kit.fontawesome.com/a2dd6045c4.js" crossorigin="anonymous"></script>
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <header>
+        <h2 class="logo"><span>S</span>ofia Rameau.</h2>
+        <nav class="navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="#sobre-mi">Sobre Mi</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="inicio" class="inicio">
+        <div class="contenido">
+            <div class="foto-perfil">
+                <img src="c:\Users\sofia\OneDrive\Escritorio\PicsArt_05-16-06.57.14.jpg" alt="Foto de perfil">
+            </div>
+            <h2>Hola, soy <span>Sofia</span></h2>
+            <h4>Desarrolladora Web</h4>
+            <p>Estudiante de desarrollo web y ciberseguridad, me gusta mucho el mundo de la tecnología y las computadoras. Amo aprender cosas nuevas cada día y aplicarlas a mis trabajos.</p>
+            <div class="btn-grupo">
+                <a href="#contacto">Contáctame</a>
+                <a href="#proyectos">Ver Proyectos</a>
+            </div>
+
+            <div class="iconos-redes">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Habilidades -->
+    <section id="sobre-mi" class="sobre-mi">
+        <h2>Conocimientos</h2>
+        <div class="habilidades">
+            <div class="habilidad">
+                <i class="fa-brands fa-html5"></i>
+                <p>HTML</p>
+            </div>
+            <div class="habilidad">
+                <i class="fa-brands fa-css3-alt"></i>
+                <p>CSS</p>
+            </div>
+            <div class="habilidad">
+                <i class="fa-brands fa-js"></i>
+                <p>JavaScript</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyectos" class="proyectos">
+        <h2>Mis Proyectos</h2>
+        <div class="proyectos-lista">
+            <a href="#" class="btn-proyecto">Proyecto 1</a>
+            <a href="#" class="btn-proyecto">Proyecto 2</a>
+            <a href="#" class="btn-proyecto">Proyecto 3</a>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn-enviar">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
